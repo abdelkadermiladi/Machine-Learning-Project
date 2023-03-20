@@ -20,4 +20,4 @@ for i in range(len(df)):
             j += 1
         # Si la période de temps est égale à la période de croissance, c'est une anomalie
         if j - i == periode_croissance.total_seconds() / 30:
-            print(f"Anomalie détectée entre {debut_croissance} et {fin_croissance}")
+            print(f"Anomalie détectée au niveau du débit entre {debut_croissance} et {fin_croissance}")

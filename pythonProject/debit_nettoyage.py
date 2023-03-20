@@ -34,7 +34,7 @@ def extract_rows_and_find_maxconsecutive_zeros(df, start_date, end_date):
 #**********************************************************************
 
 # Load the data into a pandas DataFrame
-df = pd.read_csv('FebMarAvr.csv')
+df = pd.read_csv('CSVfiles\df2-SeanceUnique.csv')
 
 df['date'] = pd.to_datetime(df['date'])
 
