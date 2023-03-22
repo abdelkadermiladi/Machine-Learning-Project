@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Lire le fichier CSV contenant les données mesurées
-df = pd.read_csv("df2-10.csv", parse_dates=["date"])
+df = pd.read_csv("CSVfiles/df2-10.csv", parse_dates=["date"])
 
 # Définir la période de temps pendant laquelle la consommation doit augmenter progressivement
 periode_croissance = pd.Timedelta(minutes=30)
