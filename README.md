@@ -28,5 +28,5 @@ Enable more granular monitoring and control of water usage.
 
 Utilize time series forecasting models to predict future water consumption patterns.
 
-## ## Conclusion
+## Conclusion
 This Water Consumption Management and Control Project aims to harness the power of machine learning and data analysis to achieve efficient water usage within a building. By effectively preprocessing data, visualizing consumption patterns, detecting anomalies, and forecasting future trends, we aspire to make a positive impact on water conservation and resource optimization.
